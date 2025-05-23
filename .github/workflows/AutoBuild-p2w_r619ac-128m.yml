@@ -54,6 +54,8 @@ env:
   DELETE_OLD_WORKFLOW: true
 # Cache 加速编译
   CACHE_ACCELERATE: true
+# 设置时区
+  TZ: Asia/Shanghai
 ### 结束
 ### 请按需求修改以上内容
 
