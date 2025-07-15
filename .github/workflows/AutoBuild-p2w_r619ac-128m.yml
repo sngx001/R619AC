@@ -104,8 +104,8 @@ jobs:
         root-reserve-mb: 1024
 
         
-    - name: Checkout
-      uses: actions/checkout@main
+    - name: Checkout(最新脚本设置)
+      uses: actions/checkout@master
       with:
         fetch-depth: 0
 
